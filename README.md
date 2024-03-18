@@ -62,23 +62,10 @@ Configure o banco de dados PostgreSQL no arquivo settings.py.
 3. Execute as migrações do banco de dados:
 python manage.py migrate
 
-csharp
-Copy code
-
-4. Instale as dependências do frontend:
-cd ../frontend
-npm install
-
-markdown
-Copy code
-
-5. Inicie o servidor backend:
+4. Inicie o servidor backend:
 python manage.py runserver
 
-markdown
-Copy code
-
-6. Acesse a aplicação em seu navegador através do endereço: http://127.0.0.1:8000
+5. Acesse a aplicação em seu navegador através do endereço: http://127.0.0.1:8000
 
 ## Contribuição
 
