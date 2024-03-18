@@ -1,4 +1,4 @@
-# Marine Inspection
+# SurveyTech
 
 Este sistema web facilita a gestão de inspeções de barcos, permitindo que administradores e inspetores gerenciem o processo de forma eficiente e organizada.
 
@@ -28,12 +28,11 @@ Este sistema web facilita a gestão de inspeções de barcos, permitindo que adm
 
 - Linguagem de programação: Python
 - Framework Backend: Django
-- Framework Frontend: React.js
 - Banco de dados: PostgreSQL
 - Autenticação: JSON Web Tokens (JWT)
 - Controle de Versão: Git e GitHub
 - Hospedagem: Local (para fins de desenvolvimento)
-- Controle de Dependências: npm (Node Package Manager) e pip (Python Package Installer)
+- Controle de Dependências: pip (Python Package Installer)
 
 ## Instalação e Configuração
 
@@ -46,7 +45,7 @@ Este sistema web facilita a gestão de inspeções de barcos, permitindo que adm
 ### Passos de Instalação:
 
 1. Clone o repositório:
-git clone https://github.com/wuelliton96/sistema_vistoria_embarcação.git
+git clone https://github.com/wuelliton96/surveytech.git
 
 csharp
 Copy code
@@ -79,13 +78,7 @@ python manage.py runserver
 markdown
 Copy code
 
-6. Inicie o servidor frontend:
-npm start
-
-less
-Copy code
-
-7. Acesse a aplicação em seu navegador através do endereço: http://localhost:3000
+6. Acesse a aplicação em seu navegador através do endereço: http://127.0.0.1:8000
 
 ## Contribuição
 
